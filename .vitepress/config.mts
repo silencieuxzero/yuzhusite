@@ -24,7 +24,7 @@ export default defineConfig({
       },
       {
         text: "更新日志",
-        link: "/news/preview",
+        link: "/news/update-preview",
         activeMatch: "^/news/",
       },
       {
