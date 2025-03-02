@@ -52,7 +52,13 @@ export default defineConfig({
       {
         text: "更新日志",
         items: [
-          { text: "Preview", link: "/news/preview" },
+          { text: "雨竹bot：预览版", link: "/news/update-preview" },
+        ],
+      },
+      {
+        text: "版本预览",
+        items: [
+          { text: "雨竹bot：测试版0.1", link: "/news/beta0.1" },
         ],
       },
     ],
