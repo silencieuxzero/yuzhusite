@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "M.E.G.CN.人工智能雨竹"
   text: "快速，智能的QQ机器人"
-  tagline: 基于LangBot架构和ChatGPT4o，力求达到最好的体验感
+  tagline: 基于LangBot框架和ChatGPT4o，力求达到最好的体验感
   actions:
     - theme: brand
       text: 安装雨竹
@@ -19,7 +19,7 @@ hero:
 
 features:
   - title: 🌈快速响应
-    details: 使用ChatGPT4o，响应速度较快
+    details: 使用ChatGPT4o，提高响应速度
   - title: 🏡拟人回答
     details: 使用插件进行了拟人化和分段回答
   - title: 📌后室化数据
