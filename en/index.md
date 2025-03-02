@@ -1,71 +1,60 @@
 ---
-# translate to English
+# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "GXDE OS: Continues"
-  text: "A Linux distro that is beautiful, light weight and out-of-the-box"
-  tagline: We bring back DDE 15 with an updated basis on GXDE
+  name: "M.E.G.CN.人工智能雨竹"
+  text: "快速，智能的QQ机器人"
+  tagline: 基于LangBot架构和ChatGPT4o，力求达到最好的体验感
   actions:
     - theme: brand
-      text: Install GXDE OS
+      text: 安装雨竹
       link: ./install
     - theme: alt
-      text: Open Source Repo
-      link: https://gitee.com/GXDE-OS
+      text: 源码仓库
+      link: https://github.com/silencieuxzero/yuzhu
   image:
-    src: /logo.png
-    alt: GXDE OS Logo
+    src: /fbclogo.png
+    alt: Fandom Backrooms Chinese Logo
 
 features:
-  - title: 🌈Classic Design
-    details: Continue with the DDE 15 UI, which is regarded as classic and worth remembering
-  - title: 🏡Brand New Kernel
-    details: Provide with newer Debian kernel, giving a modern experience with claasic design 
-  - title: 📌Wonderful Applications
-    details: Pre-installed applications like Wine Runner, Spark Store and so on makes the system out-of-the-box
-  - title: 🌏More Architectures
-    details: Support multiple CPU architectures (i386, amd64, arm64, mips64el, loong64) to enable wider support
-  - title: 🤖Android App Support
-    details: You can install Android apps easily with a few clicks
+  - title: 🌈快速响应
+    details: 使用ChatGPT4o，响应速度较快
+  - title: 🏡拟人回答
+    details: 使用插件进行了拟人化和分段回答
+  - title: 📌后室化数据
+    details: 内置智能工具，可以随时处理和Fandom后室有关的信息（开发中）
+  - title: 🌏长期维护
+    details: 雨竹将长期维护，赞助Fandom后室中文即可加入内测群
 ---
 
-## Image Display
+<!--## 图片展示
 
 <el-carousel type="card" height="24vw" indicator-position="none">
   <el-carousel-item v-for="item, k in previewSrcList" :key="item">
     <el-image preview-teleported :preview-src-list="previewSrcList" :src="item" :initial-index="k" />
   </el-carousel-item>
-</el-carousel>
+</el-carousel>-->
 
-## Any questions? Contact us!
+## 遇到问题？联系我们！
 
-You can join our Discord server at https://discord.gg/t5Uf2xYpvA. Other contact information can be found on the website navigation bar.
+联系方式见网站导航栏
 
-## Excellent communication environment
+### 优秀的交流环境
 
-Our group chat environment is excellent.
+你可以前往我们的 QQ 群聊以反馈。我们的群聊环境非常优秀。
 
-## Go to the project homepage to submit an issue
+### 想要赞助？
 
-Our system is open source. You can go to the project website to provide suggestions or report bugs.
+[点此进入爱发电](https://afdian.com/a/backrooms_fandom_cn)。
 
-::: info Open Source License: Free
-Our system is open source and completely free, but please abide by the open source agreement.
+### 前往项目首页提 Issue
+::: tip 雨竹是开源的，你可以前往开源首页提建议或者 bug。
+
+赞助是我们继续的源泉！感谢您的支持！
 :::
-
-::: tip Support us: Sponsor
-Sponsorship is our source of continuation! Thank you for your support!
-
-[Sponsor us](https://gitee.com/GXDE-OS#%E8%AF%B7%E4%BD%9C%E8%80%85%E5%96%9D%E6%9D%AF%E8%8C%B6)
-:::
-
 <script setup>
 import { ElCarousel, ElCarouselItem, ElImage, ElImageViewer } from 'element-plus';
-// import 'element-plus/es/components/carousel/style/css';
-// import 'element-plus/es/components/carousel-item/style/css';
-// import 'element-plus/es/components/image/style/css';
-// import 'element-plus/es/components/image-viewer/style/css';
 
 const previewSrcList = [
   '/1.png',

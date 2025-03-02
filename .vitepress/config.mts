@@ -5,11 +5,11 @@ import { ElementPlusResolver } from "unplugin-vue-components/resolvers";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "GXDE OS：经典延续",
+  title: "M.E.G.CN.数据库",
   description:
-    "美观、轻量、开箱即用的 Linux 发行",
+    "Fandom后室中文人工智能雨竹",
   head: [
-    ["link", { rel: "icon", href: "/logo.png", type: "image/png" }],
+    ["link", { rel: "icon", href: "/fbclogo.jpg", type: "image/png" }],
     ["meta", { name: "darkreader-lock" }],
   ],
   themeConfig: {
@@ -18,14 +18,19 @@ export default defineConfig({
       { text: "首页", link: "/" },
       { text: "使用指南", link: "/install/", activeMatch: "^/install/" },
       {
-        text: "特色应用",
-        link: "/apps/deepin-cloud-scan/",
+        text: "特色功能",
+        link: "/apps/fast-answer/",
         activeMatch: "^/apps/",
       },
       {
         text: "更新日志",
-        link: "/news/15.14.3",
+        link: "/news/preview",
         activeMatch: "^/news/",
+      },
+      {
+        text: "项目团队",
+        link: "/team/",
+        activeMatch: "^/team/",
       },
     ],
 
@@ -33,35 +38,21 @@ export default defineConfig({
       {
         text: "使用指南",
         items: [
-          { text: "快速了解", link: "/install/" },
-          { text: "如何安装 GXDE？", link: "/install/install" },
+          { text: "快速开始", link: "/install/" },
           { text: "FAQ", link: "/install/faq" },
         ],
       },
       {
-        text: "特色应用",
+        text: "更好的bot",
         items: [
-          { text: "深度云扫描", link: "/apps/deepin-cloud-scan/" },
-          { text: "深度云打印", link: "/apps/deepin-cloud-print/" },
-          { text: "GXDE 备份还原工具", link: "/apps/gxde-clone/" },
-          { text: "GXDE 影院", link: "/apps/gxde-movie/" },
-          { text: "GXDE 终端", link: "/apps/gxde-terminal/" },
-          { text: "GXDE 音乐", link: "/apps/gxde-music/" },
-          { text: "GXDE 看图", link: "/apps/gxde-image-viewer/" },
-          { text: "GXDE 软件包管理器", link: "/apps/gxde-deb-installer/" },
-          { text: "GXDE 编辑器", link: "/apps/gxde-editor/" },
+          { text: "快速响应", link: "/apps/fast-answer/" },
+          { text: "后室化回答", link: "/apps/backrooms-answer/" },
         ],
       },
       {
         text: "更新日志",
         items: [
-          { text: "15.14.3", link: "/news/15.14.3" },
-          { text: "15.14.2", link: "/news/15.14.2" },
-          { text: "15.14.1update2", link: "/news/15.14.1update2" },
-          { text: "15.14.1", link: "/news/15.14.1" },
-          { text: "15.14", link: "/news/15.14" },
-          { text: "15.13", link: "/news/15.13" },
-          { text: "15.12", link: "/news/15.12" },
+          { text: "Preview", link: "/news/preview" },
         ],
       },
     ],
@@ -84,9 +75,9 @@ export default defineConfig({
 
     footer: {
       message:
-        "最后由衷的感谢星火团队提供的资源以及服务，使 GXDE 可以获得更好的体验",
+        "感谢GXDE的开源宣传页面，本文档基于GXDE的开源宣传页面修改而来，网页框架使用VitePress",
       copyright:
-        "Copyright © 2023-present, gfdgd xi (as part of the GXDE OS Team)",
+        "这里应该有一段文字",
     },
 
     logo: "/logo.png",
@@ -112,9 +103,9 @@ export default defineConfig({
       label: "English",
       lang: "en",
 
-      title: "GXDE OS: Continues",
+      title: "M.E.G.CN.数据库",
       description:
-        "Based on the updated underlying GXDE, let DDE 15 return to people's vision (GXDE, Gorgeous eXtended Deepin Environment)",
+        "this is yuzhu",
 
       themeConfig: {
         nav: [
@@ -124,62 +115,26 @@ export default defineConfig({
             link: "/en/install/",
             activeMatch: "^/en/install/",
           },
-          {
-            text: "Feature Programs",
-            link: "/en/apps/deepin-cloud-scan/",
-            activeMatch: "^/en/apps/deepin-cloud-scan/",
-          },
-          {
-            text: "Update Log",
-            link: "en/news/15.14.3",
-            activeMatch: "^/en/news/15.14.3",
-          },
         ],
         sidebar: [
           {
             text: "Getting Started",
             items: [
               { text: "Quick Start", link: "/en/install/" },
-              { text: "How to Install GXDE?", link: "/en/install/install" },
               { text: "FAQ", link: "/en/install/faq" },
             ],
           },
           {
             text: "Feature Programs",
             items: [
-              {
-                text: "Deepin Cloud Scanner",
-                link: "/en/apps/deepin-cloud-scan/",
-              },
-              {
-                text: "Deepin Cloud Print",
-                link: "/en/apps/deepin-cloud-print/",
-              },
-              { text: "GXDE Clone", link: "/en/apps/gxde-clone/" },
-              { text: "GXDE Movie", link: "/en/apps/gxde-movie/" },
-              { text: "GXDE Terminal", link: "/en/apps/gxde-terminal/" },
-              { text: "GXDE Music", link: "/en/apps/gxde-music/" },
-              {
-                text: "GXDE Image Viewer",
-                link: "/en/apps/gxde-image-viewer/",
-              },
-              {
-                text: "GXDE Package Manager",
-                link: "/en/apps/gxde-deb-installer/",
-              },
-              { text: "GXDE Editor", link: "/en/apps/gxde-editor/" },
+              { text: "fast answer", link: "/en/apps/fast-answer/" },
+              { text: "backrooms answer", link: "/en/apps/backrooms-answer/" },
             ],
           },
           {
             text: "Update Log",
             items: [
-              { text: "15.14.3", link: "/en/news/15.14.3" },
-              { text: "15.14.2", link: "/en/news/15.14.2" },
-              { text: "15.14.1update2", link: "/en/news/15.14.1update2" },
-              { text: "15.14.1", link: "/en/news/15.14.1" },
-              { text: "15.14", link: "/en/news/15.14" },
-              { text: "15.13", link: "/en/news/15.13" },
-              { text: "15.12", link: "/en/news/15.12" },
+              { text: "Preview", link: "/en/news/preview" },
             ],
           },
         ],
