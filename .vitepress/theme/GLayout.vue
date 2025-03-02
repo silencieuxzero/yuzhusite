@@ -44,8 +44,8 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
 <template>
   <Layout>
     <template #nav-bar-content-after>
-      <a href="https://gitee.com/GXDE-OS/GXDE" style="padding: 0 12px">
-        <img src="https://gitee.com/GXDE-OS/GXDE/badge/star.svg" alt="star" />
+      <a href="https://gitee.com/silencieuxzero/yuzhu" style="padding: 0 12px">
+        <img src="https://gitee.com/silencieuxzero/yuzhu/badge/star.svg" alt="star" />
       </a>
     </template>
   </Layout>
