@@ -7,3 +7,9 @@
 
 wiki页面已完成构建并部署
 :::
+## 2025/3/7
+::: tip 加入[XiaocxPlugin插件](https://github.com/sanxianxiaohuntun/XiaocxPlugin)以实现小工具功能
+
+* 删除部分插件
+* 初步测试已完成
+:::

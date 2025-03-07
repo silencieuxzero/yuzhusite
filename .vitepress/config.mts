@@ -47,6 +47,7 @@ export default defineConfig({
         items: [
           { text: "快速响应", link: "/apps/fast-answer/" },
           { text: "后室化回答", link: "/apps/backrooms-answer/" },
+          { text: "内置多种小工具", link: "/apps/tools/" },
         ],
       },
       {
