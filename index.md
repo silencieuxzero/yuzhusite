@@ -25,7 +25,7 @@ features:
   - title: 📌后室化数据
     details: 内置智能工具，可以随时处理和Fandom后室或日常有关的信息（开发中）
   - title: 🌏长期维护
-    details: 雨竹将长期维护，赞助Fandom后室中文即可加入内测群
+    details: 雨竹将长期维护，赞助Fandom后室中文即可加入内测群（后续开放）
 ---
 
 <!--## 图片展示
