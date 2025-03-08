@@ -29,7 +29,7 @@ export default defineConfig({
       },
       {
         text: "项目团队",
-        link: "/team/",
+        link: "/team/index.md",
         activeMatch: "^/team/",
       },
     ],
